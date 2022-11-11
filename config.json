@@ -1,0 +1,15 @@
+{
+	"CONTENT_FULLNESS_RATIO_BORDER": 0.6,
+	"HEADERS": {
+		"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0",
+		"Accept": "*/*",
+		"Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3"
+	},
+	"SPLASH_SERVER_RENDER_PAGE": null,
+	"SPLASH_RENDER_WAIT": 10,
+	"SEQUENCE_ELEMENT_SEPARATOR": ",",
+	"CASHED_STRATEGY_OBJ_VISIBILITY_IN_PDB": false,
+	"ERRORLESS_CONTAINER": true,
+	"prepath": "production\\json",
+	"typical_name": "recipy"
+}

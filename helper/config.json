@@ -1,0 +1,48 @@
+{	
+	"StrategyView":{
+        "#0": {
+            "column": {
+                "width": 150,
+                "anchor": "e"
+            },
+            "heading": {
+                "text": "Name",
+                "anchor": "e"
+            }
+        },
+        "user_defined":{
+            "type": {
+                "editable":false,
+                "column":{
+                    "width":150,
+                    "anchor": "c"
+                },
+                "heading":{
+                    "text":"Type"
+                }
+            },
+            "value":{
+                "editable": true,
+                "column":{
+                    "width":300
+                },
+                "heading":{
+                    "text":"Value",
+                    "anchor": "w"
+                }
+            }
+        },
+        "tags": {
+            "internal":{
+                "background":"lightgrey"
+            },
+            "expand": {},
+            "inserted": {
+                "background": "grey"
+            },
+            "is_dict" : {},
+            "baseel": {}
+        }
+
+    }
+}

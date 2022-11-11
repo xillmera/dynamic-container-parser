@@ -1,0 +1,73 @@
+{
+	"first_container": {
+		"url": {
+			"is_value": true,
+			"default": "https://docs.python.org/3/reference/index.html"
+		},
+		"target_url": {
+			"is_value": true
+		},
+		"js_render": {
+			"is_value": true,
+			"default": false
+		},
+		"repr_url_parts": {
+			"is_value": true,
+			"default": [
+				"python",
+				"docs"
+			]
+		},
+		"group_content": {
+			"config_sequence": [
+				"hrecv.unify.output",
+				"hrecv.convert_output.res"
+			],
+			"initial": [
+				"url.url",
+				"js_render.js_render"
+			],
+			"is_cashed": true
+		},
+		"elements": {
+			"config_sequence": [
+				"recv.multi.res"
+			],
+			"initial": [
+				"group_content.soup"
+			],
+			"default": "",
+			"context": {
+				"sel": ".reference.internal"
+			}
+		},
+		"target_content": {
+			"config_sequence": [
+				"hrecv.unify.soup"
+			],
+			"initial": [
+				"target_url.url"
+			],
+			"context": {
+				"sel": "body"
+			}
+		}
+	},
+	"second_container": {
+		"group_content": {
+			"is_value": true
+		},
+		"target_content": {
+			"is_value": true
+		},
+		"url__secondary_page": {
+			"config_sequence": [
+				"proc.href_url.res"
+			],
+			"initial": [
+				"group_content.soup"
+			]
+		}
+	},
+	"is_template_parser": true
+}
